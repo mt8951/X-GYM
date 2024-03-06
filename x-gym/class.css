@@ -1,0 +1,698 @@
+*
+{
+  margin: 0rem;
+  padding: 0rem;
+  box-sizing: border-box;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.class
+{
+    background: url(danielle-cerullo-CQfNt66ttZM-unsplash.jpg);
+    width: 100%;
+    height: 200px;
+}
+
+.class-heading
+{
+    position: relative;
+    top: 3rem;
+    left: 35rem;
+    font-size: 5rem;
+    color: yellow;
+}
+
+
+
+.class-features
+{
+    margin-top: 50px;
+}
+
+.img
+{
+    height: 80px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.img:hover
+{
+    background-color: yellow;
+    border-radius: 30%;
+}
+
+.features-heading
+{
+    text-align: center;
+}
+
+.feature-desc
+{
+    text-align: center;
+    font-size: 15px;
+}
+.feature-section-1
+{
+    display: flex;
+    gap: 10px;
+}
+
+.feature-section-2
+{
+    margin-top: 90px;
+    display: flex;
+    gap: 10px;
+}
+
+.plan-title
+{
+    color:#353535;
+
+    margin-top: 50px;
+    font-size: 3rem;
+ text-align: center;
+}
+
+.plan-span
+{
+    background-color: yellow;
+    color:#353535;
+}
+
+.plans
+{
+    display: flex;
+    gap: 10rem;
+    margin-left: 15rem;
+}
+
+.plan1
+{
+    margin-top: 60px;
+    height: 35vh;
+    width: 200px;
+    padding: 20px;
+    border: 5px solid yellow;
+    text-align: center;
+}
+
+.plan2
+{
+    margin-top: 60px;
+    height: 35vh;
+    width: 200px;
+    padding: 20px;
+    border: 5px solid yellow;
+    text-align: center;
+}
+
+.plan3
+{
+    margin-top: 60px;
+    height: 35vh;
+    width: 200px;
+    padding: 20px;
+    border: 5px solid yellow;
+    text-align: center;
+}
+
+.plan-btn
+{
+    background-color: yellow;
+    color: black;
+    border: none;
+    font-size: 1.5rem;
+    margin-top: 9px;
+    font-weight: 20.5rem;
+    font-size: 1rem;
+    padding: 0.15rem;
+    
+}
+
+.footer
+{
+  margin-top: 3.125rem;
+  background: url(hero.jpg);
+  width: 100%;
+
+}
+
+.headers
+{
+  display: flex;
+  gap: 9.375rem;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+
+.header
+{
+  margin-top: 6.25rem;
+
+  color: white;
+}
+
+.desc
+{
+  /* margin-top: 100px; */
+
+  display: flex;
+  gap: 9.375rem;
+  justify-content: center;
+  align-items: center;
+  color: yellow;
+}
+
+@media(max-width: 600px)
+{
+
+    /* body
+    {
+        width: 100%;
+        height: 100%;
+    } */
+
+    .class
+{
+    background: url(danielle-cerullo-CQfNt66ttZM-unsplash.jpg);
+    width: auto;
+    height: 15vh;
+}
+
+.class-heading
+{
+    position: relative;
+    top: 4vw;
+    left: 20vw;
+    font-size: 14vw;
+    color: yellow;
+}
+
+
+
+.class-features
+{
+    margin-top: 4vw;
+}
+
+.img
+{
+    height: 15vh;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.features-heading
+{
+    font-size: 8vw;
+    text-align: center;
+}
+
+.feature-desc
+{
+    text-align: center;
+    width: 94vw;
+    font-size: 6vw;
+}
+.feature-section-1
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 9vw;
+}
+
+.feature-section-2
+{
+    margin-top: 10vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 9vw;
+}
+
+.plan-title
+{
+    color:#353535;
+
+    margin-top: 15vw;
+    font-size: 9vw;
+    text-align: center;
+}
+
+.plan-span
+{
+    background-color: yellow;
+    color:#353535;
+}
+
+.plans
+{
+    display: flex;
+    gap: 2vw;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1vw;
+}
+
+
+.plan1
+{
+    margin-top: 10vw;
+    font-size: 7vw;
+    height: 100%;
+    width: 80%;
+    padding: 12vw;
+    border: 1.5vw solid yellow;
+    text-align: center;
+}
+
+.plan2
+{
+    margin-top: 10vw;
+    font-size: 7vw;
+    height: 100%;
+    width: 80%;
+    padding: 12vw;
+    border: 1.5vw solid yellow;
+    text-align: center;
+}
+
+.plan3
+{
+    margin-top: 10vw;
+    font-size: 7vw;
+    height: 100%;
+    width: 80%;
+    padding: 12vw;
+    border: 1.5vw solid yellow;
+    text-align: center;
+}
+
+.plan-btn
+{
+    background-color: yellow;
+    color: black;
+    border: none;
+    margin-top: 9vw;
+    font-weight: 20.5vw;
+    font-size: 7vw;
+    padding: 2vw;
+    
+}
+
+.footer
+{
+  margin-top: 3.125vw;
+  height:auto;
+  background: url(hero.jpg);
+
+}
+
+.headers
+{
+  display: flex;
+  gap: 7vw;
+  justify-content: space-around;
+
+
+}
+
+
+.header
+{
+  margin-top: 3vw;
+  font-size: 4vw;
+  color: white;
+}
+
+.desc
+{
+
+  font-size: 2vw;
+  display: flex;
+  gap: 7vw;
+  justify-content: space-around;
+  align-items: center;
+  color: yellow;
+}
+
+}
+
+@media(min-width: 601px) and (max-width:768px)
+{
+    .class
+    {
+        background: url(danielle-cerullo-CQfNt66ttZM-unsplash.jpg);
+        width: auto;
+        height: 20vh;
+    }
+    
+    .class-heading
+    {
+        position: relative;
+        top: 4vw;
+        left: 25vw;
+        font-size: 14vw;
+        color: yellow;
+    }
+    
+    
+    
+    .class-features
+    {
+        margin-top: 10vw;
+    }
+    
+    .img
+    {
+        height: 15vh;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    
+    .features-heading
+    {
+        font-size: 8vw;
+        text-align: center;
+    }
+    
+    .feature-desc
+    {
+        text-align: center;
+        width: auto;
+        font-size: 6vw;
+    }
+    .feature-section-1
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 9vw;
+    }
+    
+    .feature-section-2
+    {
+        margin-top: 10vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 9vw;
+    }
+    
+    .plan-title
+    {
+        color:#353535;
+    
+        margin-top: 15vw;
+        font-size: 10vw;
+        text-align: center;
+    }
+    
+    .plan-span
+    {
+        background-color: yellow;
+        color:#353535;
+    }
+    
+    .plans
+    {
+        display: flex;
+        gap: 2vw;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 1vw;
+    }
+    
+    
+    .plan1
+    {
+        margin-top: 10vw;
+        font-size: 7vw;
+        height: 100%;
+        width: 80%;
+        padding: 12vw;
+        border: 1.5vw solid yellow;
+        text-align: center;
+    }
+    
+    .plan2
+    {
+        margin-top: 10vw;
+        font-size: 7vw;
+        height: 100%;
+        width: 80%;
+        padding: 12vw;
+        border: 1.5vw solid yellow;
+        text-align: center;
+    }
+    
+    .plan3
+    {
+        margin-top: 10vw;
+        font-size: 7vw;
+        height: 90%;
+        width: 80%;
+        padding: 12vw;
+        border: 1.5vw solid yellow;
+        text-align: center;
+    }
+    
+    .plan-btn
+    {
+        background-color: yellow;
+        color: black;
+        border: none;
+        margin-top: 9vw;
+        font-weight: 20.5vw;
+        font-size: 5vw;
+        padding: 1vw;
+        
+    }
+    
+    .footer
+    {
+      margin-top: 3.125vw;
+      height:auto;
+      background: url(hero.jpg);
+    
+    }
+    
+    .headers
+    {
+      display: flex;
+      gap: 4vw;
+      justify-content: space-around;
+    
+    
+    }
+    
+    
+    .header
+    {
+      margin-top: 3vw;
+      font-size: 5vw;
+      color: white;
+      text-align: center;
+    }
+    
+    .desc
+    {
+    
+      font-size: 3vw;
+      display: flex;
+      gap: 7vw;
+      justify-content: space-around;
+      align-items: center;
+      color: yellow;
+    }
+}
+
+@media(min-width: 769px) and (max-width:1024px)
+{
+    .class
+    {
+        background: url(danielle-cerullo-CQfNt66ttZM-unsplash.jpg);
+        width: auto;
+        height: 20vh;
+    }
+    
+    .class-heading
+    {
+        position: relative;
+        top: 4vw;
+        left: 25vw;
+        font-size: 14vw;
+        color: yellow;
+    }
+    
+    
+    
+    .class-features
+    {
+        margin-top: 10vw;
+    }
+    
+    .img
+    {
+        height: 15vh;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    
+    .features-heading
+    {
+        font-size: 8vw;
+        text-align: center;
+    }
+    
+    .feature-desc
+    {
+        text-align: center;
+        width: auto;
+        font-size: 6vw;
+    }
+    .feature-section-1
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 9vw;
+    }
+    
+    .feature-section-2
+    {
+        margin-top: 10vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 9vw;
+    }
+    
+    .plan-title
+    {
+        color:#353535;
+    
+        margin-top: 15vw;
+        font-size: 10vw;
+        text-align: center;
+    }
+    
+    .plan-span
+    {
+        background-color: yellow;
+        color:#353535;
+    }
+    
+    .plans
+    {
+        display: flex;
+        gap: 2vw;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 1vw;
+    }
+    
+    
+    .plan1
+    {
+        margin-top: 10vw;
+        font-size: 7vw;
+        height: 100%;
+        width: 80%;
+        padding: 12vw;
+        border: 1.5vw solid yellow;
+        text-align: center;
+    }
+    
+    .plan2
+    {
+        margin-top: 10vw;
+        font-size: 7vw;
+        height: 100%;
+        width: 80%;
+        padding: 12vw;
+        border: 1.5vw solid yellow;
+        text-align: center;
+    }
+    
+    .plan3
+    {
+        margin-top: 10vw;
+        font-size: 7vw;
+        height: 100%;
+        width: 80%;
+        padding: 12vw;
+        border: 1.5vw solid yellow;
+        text-align: center;
+    }
+    
+    .plan-btn
+    {
+        background-color: yellow;
+        color: black;
+        border: none;
+        margin-top: 9vw;
+        font-weight: 20.5vw;
+        font-size: 7vw;
+        padding: 2vw;
+        
+    }
+    
+    .footer
+    {
+      margin-top: 3.125vw;
+      height:auto;
+      background: url(hero.jpg);
+    
+    }
+    
+    .headers
+    {
+      display: flex;
+      gap: 4vw;
+      justify-content: space-around;
+    
+    
+    }
+    
+    
+    .header
+    {
+      margin-top: 3vw;
+      font-size: 5vw;
+      color: white;
+      text-align: center;
+    }
+    
+    .desc
+    {
+    
+      font-size: 3vw;
+      display: flex;
+      gap: 7vw;
+      justify-content: space-around;
+      align-items: center;
+      color: yellow;
+    }
+}    
